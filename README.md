@@ -45,6 +45,8 @@ python3 disk_tray.py      # 托盘（需要下面的依赖）
 sudo apt install ./dist/disk-card_*.deb # 用 apt 装，会自动拉依赖；dpkg -i 不会
 ```
 
+从 GitHub 克隆下来的 `build_deb.sh` 可能没有执行权限，这时用 `bash build_deb.sh` 运行即可。
+
 装完后（无需重启）：
 
 | 安装到 | 内容 |
