@@ -1,11 +1,10 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=磁盘占用卡片托盘
-Comment=登录后自动显示卡片的托盘设置图标
+Name=磁盘占用卡片设置
+Comment=卡片的面板托盘图标：置顶 / 透明度 / 可移动
 Exec=/usr/bin/python3 /usr/share/disk-card/disk_tray.py
 Icon=drive-harddisk
 Terminal=false
 StartupNotify=false
-OnlyShowIn=GNOME;
-X-GNOME-Autostart-enabled=true
+Categories=Utility;
