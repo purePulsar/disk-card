@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=磁盘占用卡片
+Comment=登录后自动显示桌面悬浮磁盘占用卡片
+Exec=/usr/bin/python3 /usr/share/disk-card/disk_viewer.py
+Icon=drive-harddisk
+Terminal=false
+StartupNotify=false
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-enabled=true
