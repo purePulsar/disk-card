@@ -1,0 +1,18 @@
+Package: disk-card
+Version: 1.0.0
+Architecture: all
+Maintainer: pure <pure@localhost>
+Section: utils
+Priority: optional
+Depends: python3 (>= 3.8), python3-tk, python3-gi, gir1.2-gtk-3.0
+Recommends: gir1.2-ayatanaappindicator3-0.1, gnome-shell-extension-zorin-appindicator
+Description: 桌面悬浮磁盘占用卡片
+ 在桌面悬浮显示各磁盘分区的占用率，并通过 GNOME 面板上的托盘图标调整
+ 卡片：是否置顶、透明度、是否可移动。
+ .
+ 卡片本体是 Tk 程序，托盘是 GTK + AyatanaAppIndicator3 程序，两者互相
+ 独立，通过 ~/.config/disk-card/settings.json 通信。
+ .
+ 为 GNOME / Mutter 做了无边框置顶处理；托盘图标依赖 Zorin 的 appindicator
+ 扩展（gnome-shell-extension-zorin-appindicator），装在别的桌面环境上
+ 卡片本体可用，托盘图标可能不显示。
